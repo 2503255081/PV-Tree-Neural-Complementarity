@@ -1,0 +1,32 @@
+{
+  "status": "FROZEN_EVALUATION_ARCHIVE",
+  "sites": [
+    "2107",
+    "9069",
+    "9068"
+  ],
+  "metadata_members": [
+    "target",
+    "daylight",
+    "capacity",
+    "issue_utc_seconds",
+    "issue_local_assumed"
+  ],
+  "bundle_sha256": {
+    "2107.npz": "fd6f88345f589f5c8b8e81b283fd8d773528c0d71dc5faecf585440903c0a267",
+    "2107_added_seed_weights.json": "2500f1aad8cf4e5f68a09d9117d2b67ebe7c6d3df767b802d913a8777d2d6780",
+    "2107_global_weights.json": "c94232ad2be43c053172ce11dd714398abe8c26174408fe0f0700fa6f3e4b6ef",
+    "2107_primary_pair_weights.json": "6366a4c66dfa8d2147d91a1d1d1c60b752f1842e18c26a3c741cfd11ba512e00",
+    "2107_primary_weights.json": "d6a10f166b660f8c49dea9f23b62d2be7e9a4c91a9cef0a2ef0516a084a29d31",
+    "9068.npz": "aed2be25fd1b727769caeccddd648ec1798388d9dd9fd12990e867d287ada25e",
+    "9069.npz": "4bd2e6aeb140703e594a2a6161441ea278221ddc0b5c91125773279b295b7467",
+    "cross_site_weights.json": "e5e9efad1b0057622a4c4a691c5a34a660de42af9cefceca210cee5b135dd613",
+    "expected_scores.json": "2738da8716a5869d6a589c4f79ce18c54f50cd58cb0431619205b776bc54673a",
+    "README.md": "b8b5f6fd14071cc4381059fe17417d7a6b344b9a79f15c2d8e9fae3bc5c374af",
+    "replay_scores.py": "ad6a000547639bcceebdc1e63d5a86df7dad58e1e9d2173c011e0d5f39a0d480"
+  },
+  "new_model_fits": 0,
+  "new_weight_fits": 0,
+  "new_prediction_runs": 0,
+  "new_bootstrap_analyses": 0
+}

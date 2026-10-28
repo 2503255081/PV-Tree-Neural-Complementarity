@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the original datasets if you use these materials."
+title: "PV Tree-Neural Complementarity: reproducibility code and evaluation data"
+type: software
+version: 1.0.0
+date-released: 2026-10-28
+repository-code: "https://github.com/2503255081/PV-Tree-Neural-Complementarity"
+authors:
+  - family-names: Xu
+    given-names: Yuqing
+  - family-names: Zhou
+    given-names: Liguo
+  - family-names: Sun
+    given-names: Ze
+  - family-names: Yu
+    given-names: Lei
+  - family-names: Jiang
+    given-names: Mingming
+  - family-names: Knoll
+    given-names: Alois
+abstract: "Code and frozen evaluation data for studying complementarity between LightGBM, an exogenous N-HiTS variant and TimeMixer in short-term photovoltaic power forecasting."
+keywords:
+  - photovoltaic forecasting
+  - forecast combination
+  - LightGBM
+  - N-HiTS
+  - TimeMixer

@@ -1,0 +1,7 @@
+{
+  "status": "VERIFIED_PUBLIC_PACKAGE",
+  "entrypoint": "python code/run.py --help",
+  "smoke": "python code/run.py smoke",
+  "scope": "Prepared-array static3 training/inference/fusion for9069/9068; common local model implementations",
+  "checks": "CHECKS.json"
+}

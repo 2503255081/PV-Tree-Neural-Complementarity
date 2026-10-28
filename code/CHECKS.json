@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "original_sources_unchanged": true,
+  "model_feature_AST_unchanged_except_module_docstrings": {
+    "pv_nhitsx.py": true,
+    "pv_timemixer.py": true,
+    "lightgbm_features.py": true
+  },
+  "python_syntax": "PASS",
+  "CLI_help": "PASS",
+  "synthetic_CPU_smoke": {
+    "nhitsx_parameters": 2270692,
+    "timemixer_parameters": 3509419,
+    "neural_shape": [
+      2,
+      16,
+      1
+    ],
+    "optimizer_steps_per_neural_model": 1,
+    "direct_tree_columns": 311,
+    "convex_weight_recovery_max_error": 4.9322588235867215e-09,
+    "endpoint_selection": "PASS",
+    "synthetic_lightgbm_rounds": 2,
+    "real_data_used": false
+  },
+  "smoke_environment": {
+    "python": "3.11",
+    "torch": "2.7.1+cu128",
+    "device": "cpu",
+    "numpy": "2.2.6",
+    "lightgbm": "4.7.0",
+    "scipy": "1.15.3",
+    "pandas": "2.2.3",
+    "pvlib": "0.15.2"
+  },
+  "limits": [
+    "Prepared training input arrays required; evaluation NPZs cannot replace them",
+    "Raw acquisition and strict power/queue reconstruction not automated",
+    "Original2107 full preprocessing/training pipeline not packaged",
+    "No new paper training, prediction or bootstrap run"
+  ]
+}

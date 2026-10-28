@@ -1,0 +1,63 @@
+{
+  "nhitsx": {
+    "hidden_size": 512,
+    "mlp_layers": 2,
+    "blocks_per_stack": 1,
+    "pool_kernels": [
+      8,
+      4,
+      1
+    ],
+    "frequency_downsamples": [
+      4,
+      2,
+      1
+    ],
+    "history_exog_size": 16,
+    "future_exog_size": 16,
+    "station_embedding_dim": 16,
+    "dropout": 0.1,
+    "use_nwp": true,
+    "use_historical_nwp": true,
+    "num_stations": 1,
+    "context_length": 96,
+    "prediction_length": 16,
+    "past_feature_dim": 13,
+    "future_feature_dim": 13,
+    "nwp_feature_dim": 27
+  },
+  "timemixer": {
+    "d_model": 256,
+    "d_ff": 512,
+    "e_layers": 3,
+    "down_sampling_layers": 2,
+    "down_sampling_window": 2,
+    "moving_average": 25,
+    "station_embedding_dim": 16,
+    "dropout": 0.1,
+    "use_nwp": true,
+    "use_historical_nwp": true,
+    "num_stations": 1,
+    "context_length": 96,
+    "prediction_length": 16,
+    "past_feature_dim": 13,
+    "future_feature_dim": 13,
+    "nwp_feature_dim": 27
+  },
+  "cross_unet": {
+    "segment_length": 12,
+    "d_model": 256,
+    "n_heads": 4,
+    "encoder_scales": 3,
+    "d_ff": 512,
+    "dropout": 0.05,
+    "pcorr_mode": "nwp",
+    "num_stations": 1,
+    "context_length": 96,
+    "prediction_length": 16,
+    "past_feature_dim": 13,
+    "future_feature_dim": 13,
+    "nwp_feature_dim": 27,
+    "use_nwp": true
+  }
+}

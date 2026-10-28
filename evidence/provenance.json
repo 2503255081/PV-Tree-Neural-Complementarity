@@ -1,0 +1,65 @@
+[
+  {
+    "source_artifact": "pv_three_expert_seta_20261008/evidence/architecture_configs.json",
+    "source_sha256": "7cf0ed59b229a0202dba08e7df96c842995d907ed65f34551f45056ec9daf7c6",
+    "published_path": "evidence/architecture_configs.json",
+    "published_sha256": "7cf0ed59b229a0202dba08e7df96c842995d907ed65f34551f45056ec9daf7c6",
+    "transformation": "replace absolute local source paths with source_artifacts paths; numbers unchanged"
+  },
+  {
+    "source_artifact": "pv_three_expert_seta_20261008/evidence/tree_parameters.json",
+    "source_sha256": "8028c17fdbe86dc58e5e59e5e936dbf8c73076bb4f15ec9ba1f380254c9fb2a9",
+    "published_path": "evidence/tree_parameters.json",
+    "published_sha256": "8028c17fdbe86dc58e5e59e5e936dbf8c73076bb4f15ec9ba1f380254c9fb2a9",
+    "transformation": "replace absolute local source paths with source_artifacts paths; numbers unchanged"
+  },
+  {
+    "source_artifact": "pv_three_expert_seta_20261008/evidence/tree_feature_schema.json",
+    "source_sha256": "6383033ee28f32eb32b973d9bcb4507845b2e971e4b1a8919fac982151f00016",
+    "published_path": "evidence/tree_feature_schema.json",
+    "published_sha256": "6383033ee28f32eb32b973d9bcb4507845b2e971e4b1a8919fac982151f00016",
+    "transformation": "replace absolute local source paths with source_artifacts paths; numbers unchanged"
+  },
+  {
+    "source_artifact": "pv_three_expert_seta_20261008/evidence/nwp_feature_schema.json",
+    "source_sha256": "32d2953ec0beddb9299d887256ad9d15e13fbd470f055e0a9583d97c6952a3a8",
+    "published_path": "evidence/nwp_feature_schema.json",
+    "published_sha256": "32d2953ec0beddb9299d887256ad9d15e13fbd470f055e0a9583d97c6952a3a8",
+    "transformation": "replace absolute local source paths with source_artifacts paths; numbers unchanged"
+  },
+  {
+    "source_artifact": "pv_three_expert_seta_20261008/evidence/component_ablation.csv",
+    "source_sha256": "5daf9fee4688bb35d0b0ca54cfdd6e11d3ff3fd831565489206f833b6413e2d0",
+    "published_path": "evidence/component_ablation.csv",
+    "published_sha256": "5daf9fee4688bb35d0b0ca54cfdd6e11d3ff3fd831565489206f833b6413e2d0",
+    "transformation": "none"
+  },
+  {
+    "source_artifact": "pv_three_expert_seta_20261008/evidence/regime_scores.csv",
+    "source_sha256": "ff369e1af0d309f7e27682c3c18cad07bececd4e8e7c7f08ae9991ee792bd786",
+    "published_path": "evidence/regime_scores.csv",
+    "published_sha256": "ff369e1af0d309f7e27682c3c18cad07bececd4e8e7c7f08ae9991ee792bd786",
+    "transformation": "none"
+  },
+  {
+    "source_artifact": "pv_three_expert_seta_20261008/evidence/cross_site_results.json",
+    "source_sha256": "256560e32819f5035057f2b7575e65f2b2803f162e2f7f2011e92e7ab65dafb1",
+    "published_path": "evidence/cross_site_results.json",
+    "published_sha256": "256560e32819f5035057f2b7575e65f2b2803f162e2f7f2011e92e7ab65dafb1",
+    "transformation": "replace absolute local source paths with source_artifacts paths; numbers unchanged"
+  },
+  {
+    "source_artifact": "pv_three_expert_seta_20261008/evidence/cross_site_weights.json",
+    "source_sha256": "e5e9efad1b0057622a4c4a691c5a34a660de42af9cefceca210cee5b135dd613",
+    "published_path": "evidence/cross_site_weights.json",
+    "published_sha256": "e5e9efad1b0057622a4c4a691c5a34a660de42af9cefceca210cee5b135dd613",
+    "transformation": "replace absolute local source paths with source_artifacts paths; numbers unchanged"
+  },
+  {
+    "source_artifact": "pv_three_expert_seta_20261008/evidence/cross_site_inference_cost.json",
+    "source_sha256": "a36aef4b8a736692f75b5504bf8fe9b4394f7041bce449e6df7006f2b3b57304",
+    "published_path": "evidence/cross_site_inference_cost.json",
+    "published_sha256": "a36aef4b8a736692f75b5504bf8fe9b4394f7041bce449e6df7006f2b3b57304",
+    "transformation": "replace absolute local source paths with source_artifacts paths; numbers unchanged"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "note": "Original source hashes are recorded before portable packaging. Model/feature computations are preserved; leading docstrings removed references to unrelated experiments. Runtime paths and device selection are adapted. Acquisition receipts are validated by relative raw-key suffix plus recorded payload hash after relocation.",
+  "files": [
+    {
+      "source_relative_path": "Distributed_PV_Power_Forecasting_V18/src/pv_forecasting/models/pv_nhitsx.py",
+      "source_sha256": "d182c5156ef9e77dad2b6f2738226c7e387227261f1e6acaa1462a8a4d32ad6e",
+      "release_relative_path": "pv3/pv_nhitsx.py",
+      "release_sha256": "1c9201ba044dd1bcd83d8a75006a1b48070d1a03c9f68d7fcfb1e578d35320a3"
+    },
+    {
+      "source_relative_path": "Distributed_PV_Power_Forecasting_V18/src/pv_forecasting/models/pv_timemixer.py",
+      "source_sha256": "463c51d91900e470bdb53045331e2a132d8ef07afbefb2ec4b845c9099fcac68",
+      "release_relative_path": "pv3/pv_timemixer.py",
+      "release_sha256": "f3506dda904803f2ecbc74d4a9632ad9a4ed0aa0885f5f59cc3e42779cae8bae"
+    },
+    {
+      "source_relative_path": "Distributed_PV_Power_Forecasting_V18/src/pv_forecasting/data/lightgbm_features.py",
+      "source_sha256": "4fa027a652e056b9ddaa65bed8a492ea17e2085859047e16fc5eb4b34b2e760b",
+      "release_relative_path": "pv3/lightgbm_features.py",
+      "release_sha256": "17957abf82b5c7154168ffc7bb8ce945a5ccd528ad6ae7e38d0a47436d4b7c25"
+    },
+    {
+      "source_relative_path": "pv_three_cross_site_training_20261008/solar4.py",
+      "source_sha256": "d4b747f44e1090c95df9f22374bebbf2f0b3300db2266d42fed644ec26402cbf",
+      "release_relative_path": "pv3/solar4.py",
+      "release_sha256": "d4b747f44e1090c95df9f22374bebbf2f0b3300db2266d42fed644ec26402cbf"
+    },
+    {
+      "source_relative_path": "pv_three_cross_site_training_20261008/architecture_configs.json",
+      "source_sha256": "e80af7f50b62a2168287e260953f36abe40b76caf976fc7a8cc5b00880366aae",
+      "release_relative_path": "configs/architecture_configs.json",
+      "release_sha256": "e80af7f50b62a2168287e260953f36abe40b76caf976fc7a8cc5b00880366aae"
+    },
+    {
+      "source_relative_path": "pv_three_cross_site_training_20261008/tree_parameters.json",
+      "source_sha256": "8028c17fdbe86dc58e5e59e5e936dbf8c73076bb4f15ec9ba1f380254c9fb2a9",
+      "release_relative_path": "configs/tree_parameters.json",
+      "release_sha256": "8028c17fdbe86dc58e5e59e5e936dbf8c73076bb4f15ec9ba1f380254c9fb2a9"
+    },
+    {
+      "source_relative_path": "pv_three_cross_site_training_20261008/gfs_adapter.py",
+      "source_sha256": "11ce9284dd732953728b65e6aa951ff6991ccb23956be6c332617fcc11ed5926",
+      "release_relative_path": "pv3/gfs_adapter.py",
+      "release_sha256": "c573be963f4e8e9e52e9c7f90131ef55c0b01a49f26c7d42647a4e4dc0deff82"
+    },
+    {
+      "source_relative_path": "pv_three_cross_site_training_20261008/materialize.py",
+      "source_sha256": "e353befc25d5bf28389931b3fca84f09e6cb63b150ca1480f24aaf988db7f8f0",
+      "release_relative_path": "pv3/materialize.py",
+      "release_sha256": "d9aa2be814a88281cd1a3ec7cedfd537692fe8d4e8cfe6567fd3112f32226c1e"
+    },
+    {
+      "source_relative_path": "pv_three_cross_site_training_20261008/engine.py",
+      "source_sha256": "c7de50e16d26ec5c64b884485a108a3cb02d5b6f5b21a462991d4f683eb3f8d3",
+      "release_relative_path": "pv3/engine.py",
+      "release_sha256": "adee578fc036a99f72de01212c1eb675df7f0b367aedb73c096126bfb42c20f6"
+    },
+    {
+      "source_relative_path": "pv_three_cross_site_training_20261008/score.py",
+      "source_sha256": "783b554cb09fb5eb3f02340dc0934393657b304bf783a59b16fd0471395d5e6d",
+      "release_relative_path": "pv3/score.py",
+      "release_sha256": "cbf6e9381de3522e4a0612084b11128f7c98dfc8bf31a7119e626b6828ad8fdd"
+    }
+  ],
+  "generated_files": {
+    "ATTRIBUTION.md": "1af770303059638f1ae61b955989168218067d94618e74aec33588390e9afe4b",
+    "README.md": "41225598536a9c190ed604e2fcabfb172b1026972fb92f864aa487bfdf7dc997",
+    "requirements.txt": "c74a3219068174efc6ace07f066cdb729a752ad2f74ac0f7c989a4693ac6b35f",
+    "run.py": "9df61e9e44023a7110c84e92c0ac492097baaafbf3d86520934ce4c35acb88fb",
+    "smoke.py": "e5d059085d619d25b74431c27c671ee86ceb0081851231c1cd1471142ecd1031",
+    "configs/architecture_configs.json": "e80af7f50b62a2168287e260953f36abe40b76caf976fc7a8cc5b00880366aae",
+    "configs/tree_parameters.json": "8028c17fdbe86dc58e5e59e5e936dbf8c73076bb4f15ec9ba1f380254c9fb2a9",
+    "pv3/common.py": "835758260003b823889945e08c56818ea00e105ece4c7c9de537f7f73bd1c064",
+    "pv3/engine.py": "adee578fc036a99f72de01212c1eb675df7f0b367aedb73c096126bfb42c20f6",
+    "pv3/gfs_adapter.py": "c573be963f4e8e9e52e9c7f90131ef55c0b01a49f26c7d42647a4e4dc0deff82",
+    "pv3/lightgbm_features.py": "17957abf82b5c7154168ffc7bb8ce945a5ccd528ad6ae7e38d0a47436d4b7c25",
+    "pv3/materialize.py": "d9aa2be814a88281cd1a3ec7cedfd537692fe8d4e8cfe6567fd3112f32226c1e",
+    "pv3/pv_nhitsx.py": "1c9201ba044dd1bcd83d8a75006a1b48070d1a03c9f68d7fcfb1e578d35320a3",
+    "pv3/pv_timemixer.py": "f3506dda904803f2ecbc74d4a9632ad9a4ed0aa0885f5f59cc3e42779cae8bae",
+    "pv3/score.py": "cbf6e9381de3522e4a0612084b11128f7c98dfc8bf31a7119e626b6828ad8fdd",
+    "pv3/solar4.py": "d4b747f44e1090c95df9f22374bebbf2f0b3300db2266d42fed644ec26402cbf",
+    "pv3/__init__.py": "5984ea94f058159f5e1c1900004e37163a7d5bb4b25244346d951500035139ee"
+  }
+}

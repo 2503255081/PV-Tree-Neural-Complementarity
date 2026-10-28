@@ -1,0 +1,10 @@
+model,all16_nmae_pct,h240_nmae_pct,scope
+LightGBM,4.540456,5.516236,post_hoc_exposed_development
+N-HiTSx,4.811610,5.943753,post_hoc_exposed_development
+TimeMixer,4.945527,5.917315,post_hoc_exposed_development
+three_stagewise,4.341614,5.249076,post_hoc_exposed_development
+equal_L_N,4.474707,5.434009,post_hoc_exposed_development
+equal_L_T,4.402562,5.289083,post_hoc_exposed_development
+equal_N_T,4.542497,5.496160,post_hoc_exposed_development
+equal_three,4.365464,5.259447,post_hoc_exposed_development
+two_stagewise_L_N,4.458958,5.392626,post_hoc_exposed_development

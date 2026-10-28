@@ -1,0 +1,105 @@
+{
+  "measurements": {
+    "9069_tree_batch1": {
+      "median_ms": 6.899649997649249,
+      "iqr_ms": [
+        3.1699000028311275,
+        7.476949998817872
+      ],
+      "mean_ms": 5.865047000115737,
+      "sample_sd_ms": 2.4050501990643265,
+      "median_ms_per_issue": 6.899649997649249,
+      "repetitions": 100,
+      "warmups": 20
+    },
+    "9069_three_experts_batch1": {
+      "median_ms": 30.8318999959738,
+      "iqr_ms": [
+        30.090550000750227,
+        32.06292500544805
+      ],
+      "mean_ms": 31.913877000042703,
+      "sample_sd_ms": 4.243378146325721,
+      "median_ms_per_issue": 30.8318999959738,
+      "repetitions": 100,
+      "warmups": 20
+    },
+    "9069_tree_batch128": {
+      "median_ms": 28.62469999672612,
+      "iqr_ms": [
+        27.817149995826185,
+        29.262500003824243
+      ],
+      "mean_ms": 28.55364000017289,
+      "sample_sd_ms": 1.644755362478539,
+      "median_ms_per_issue": 0.22363046872442283,
+      "repetitions": 100,
+      "warmups": 20
+    },
+    "9069_three_experts_batch128": {
+      "median_ms": 53.25594999885652,
+      "iqr_ms": [
+        50.60895000497112,
+        55.19892500524293
+      ],
+      "mean_ms": 52.4296599997615,
+      "sample_sd_ms": 5.232796467094396,
+      "median_ms_per_issue": 0.4160621093660666,
+      "repetitions": 100,
+      "warmups": 20
+    },
+    "9068_tree_batch1": {
+      "median_ms": 7.704149989876896,
+      "iqr_ms": [
+        7.336574995861156,
+        8.414624993747566
+      ],
+      "mean_ms": 8.012642999383388,
+      "sample_sd_ms": 1.1762645685168054,
+      "median_ms_per_issue": 7.704149989876896,
+      "repetitions": 100,
+      "warmups": 20
+    },
+    "9068_three_experts_batch1": {
+      "median_ms": 31.536950009467546,
+      "iqr_ms": [
+        30.765374995098682,
+        32.73067499321769
+      ],
+      "mean_ms": 32.54461299977265,
+      "sample_sd_ms": 4.146846530013639,
+      "median_ms_per_issue": 31.536950009467546,
+      "repetitions": 100,
+      "warmups": 20
+    },
+    "9068_tree_batch128": {
+      "median_ms": 38.276049999694806,
+      "iqr_ms": [
+        36.43114999795216,
+        39.19557499830262
+      ],
+      "mean_ms": 37.37004599955981,
+      "sample_sd_ms": 6.23767174984381,
+      "median_ms_per_issue": 0.29903164062261567,
+      "repetitions": 100,
+      "warmups": 20
+    },
+    "9068_three_experts_batch128": {
+      "median_ms": 66.12835000851192,
+      "iqr_ms": [
+        64.38454999442911,
+        68.76239999110112
+      ],
+      "mean_ms": 66.82854499929817,
+      "sample_sd_ms": 4.626985578697125,
+      "median_ms_per_issue": 0.5166277344414993,
+      "repetitions": 100,
+      "warmups": 20
+    }
+  },
+  "gpu": "NVIDIA RTX A6000",
+  "torch": "2.7.1+cu128",
+  "includes": "prepared tensor indexing,normalization,311treefeatures,CPUtree,GPUtransfer,neuralprediction,and fusion arithmetic",
+  "excludes": "source parsing,model loading,NWPnetwork delivery,production serving",
+  "implementation_only": true
+}

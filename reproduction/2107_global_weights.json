@@ -1,0 +1,7 @@
+{
+  "alpha_NHiTSx": 0.31931102946527795,
+  "beta_LightGBM": 0.581193954696079,
+  "inner_cells": 73632,
+  "outer_cells": 25440,
+  "boundary_utc_epoch": 1696143600
+}

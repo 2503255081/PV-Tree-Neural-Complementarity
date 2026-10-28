@@ -1,0 +1,6 @@
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.2.3
+torch==2.7.1
+lightgbm==4.7.0
+pvlib==0.15.2

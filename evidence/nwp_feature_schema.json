@@ -1,0 +1,32 @@
+{
+  "names": [
+    "gfs_tmp2m",
+    "gfs_rh2m",
+    "gfs_u10m",
+    "gfs_v10m",
+    "gfs_surface_pressure",
+    "gfs_tcdc_average",
+    "gfs_dswrf_average",
+    "gfs_precip_accumulation",
+    "gfs_tmp2m_native_span_hours",
+    "gfs_rh2m_native_span_hours",
+    "gfs_u10m_native_span_hours",
+    "gfs_v10m_native_span_hours",
+    "gfs_surface_pressure_native_span_hours",
+    "gfs_tcdc_average_native_span_hours",
+    "gfs_dswrf_average_native_span_hours",
+    "gfs_precip_accumulation_native_span_hours",
+    "gfs_lead_hours",
+    "gfs_cycle_age_hours",
+    "gfs_endpoint_minus_target_end_hours",
+    "gfs_tmp2m_source_valid",
+    "gfs_rh2m_source_valid",
+    "gfs_u10m_source_valid",
+    "gfs_v10m_source_valid",
+    "gfs_surface_pressure_source_valid",
+    "gfs_tcdc_average_source_valid",
+    "gfs_dswrf_average_source_valid",
+    "gfs_precip_accumulation_source_valid"
+  ],
+  "fit_split": "train"
+}
